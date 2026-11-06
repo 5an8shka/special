@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Utkarsh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@700&text=%E0%A5%90%E0%A4%B9%E0%A4%B0%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600&display=swap"></noscript>
+<style>
+:root{--blue:#2347d8;--violet:#6a3de8;--pink:#ff5d8f;--sun:#ffd23f;--mint:#3ddc97;--tang:#ff9248;--ink:#1a1745;--mute:#514d7a;--card:#fff;--line:#e3dff5;
+--t-sun:#fff6d6;--t-pink:#ffe4ee;--t-mint:#dcf8ea;--t-lav:#ece5ff;--bg:#fff6d6;--up:#12a567;--grass:#2f9e57}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--ink:#f1eeff;--mute:#b4afd9;--card:#241f55;--line:#3a3478;--t-sun:#241f3d;--t-pink:#2f1d3d;--t-mint:#143a3a;--t-lav:#1d1a4a;--bg:#241f3d;--up:#4fe0a0}}
+:root[data-theme="dark"]{color-scheme:dark;--ink:#f1eeff;--mute:#b4afd9;--card:#241f55;--line:#3a3478;--t-sun:#241f3d;--t-pink:#2f1d3d;--t-mint:#143a3a;--t-lav:#1d1a4a;--bg:#241f3d;--up:#4fe0a0}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 Figtree,system-ui,sans-serif;font-variant-numeric:tabular-nums;overflow-x:hidden}
+h1,h2{font-family:'Bricolage Grotesque',Georgia,sans-serif;margin:0;line-height:1.05;letter-spacing:-.02em}
+.wrap{max-width:780px;margin:0 auto}
+section{padding:72px 22px}
+.s-sun{background:var(--t-sun)}.s-pink{background:var(--t-pink)}.s-mint{background:var(--t-mint)}.s-lav{background:var(--t-lav)}
+h2{display:table;font-size:clamp(34px,7vw,52px);font-weight:800;margin:0 0 14px -6px;padding:0 6px;background:linear-gradient(transparent 62%,var(--hl,var(--sun)) 62%)}
+.s-sun h2{--hl:#ffd23f}.s-pink h2{--hl:#ff9fbd}.s-mint h2{--hl:#7fe8b9}.s-lav h2{--hl:#c4b0ff}
+.lead{color:var(--mute);margin:0 0 28px;max-width:46ch}
+.box{background:var(--card);border:2px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink)}
+#bar{position:fixed;top:0;left:0;height:5px;width:0;background:linear-gradient(90deg,var(--sun),var(--pink),var(--violet));z-index:60}
+
+/* hero */
+.hero{position:relative;background:linear-gradient(150deg,#2347d8,#6a3de8 58%,#ff5d8f);color:#fff;padding:0 22px;overflow:hidden;min-height:100vh;display:flex;flex-direction:column}
+.blob{position:absolute;border-radius:50%;will-change:transform;animation:drift 14s ease-in-out infinite alternate;pointer-events:none}
+.b1{width:380px;height:380px;background:radial-gradient(circle,var(--sun) 0,transparent 68%);left:-100px;top:8%;opacity:.4}
+.b2{width:320px;height:320px;background:radial-gradient(circle,var(--mint) 0,transparent 68%);right:-60px;top:38%;animation-delay:-5s;opacity:.35}
+.b3{width:300px;height:300px;background:radial-gradient(circle,var(--tang) 0,transparent 68%);left:35%;bottom:10%;animation-delay:-9s;opacity:.35}
+@keyframes drift{to{transform:translate(60px,-50px) scale(1.2)}}
+.ghost{position:absolute;right:-3%;top:14%;font:800 clamp(150px,36vw,340px)/1 'Bricolage Grotesque',sans-serif;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.2);will-change:transform;animation:bob 7s ease-in-out infinite;pointer-events:none;user-select:none;white-space:nowrap}
+.tape{overflow:hidden;white-space:nowrap;padding:15px 0;font-weight:600;font-size:14px;margin:0 -22px;background:rgba(0,0,0,.22);position:relative;z-index:1}
+.tape div{display:inline-block;animation:scroll 32s linear infinite}
+.tape span{margin-right:38px}.tape b{color:var(--sun)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.hero .wrap{flex:1;display:flex;flex-direction:column;justify-content:center;padding:36px 0 130px;position:relative;z-index:1;width:100%}
+.chip{align-self:flex-start;border:1.5px solid rgba(255,255,255,.6);border-radius:999px;padding:6px 16px;font-size:14px;font-weight:600;margin-bottom:22px;background:rgba(255,255,255,.2);opacity:0;animation:fade 1s .2s forwards}
+h1{font-size:clamp(52px,13.5vw,112px);font-weight:800}
+h1 .w{display:inline-block;white-space:nowrap}
+h1 .c{display:inline-block;opacity:0;transform:translateY(-70px) rotate(-8deg);animation:drop .7s cubic-bezier(.3,1.5,.5,1) forwards}
+@keyframes drop{to{opacity:1;transform:none}}
+.sub{max-width:34ch;margin:20px 0 6px;font-size:20px;opacity:0;animation:fade 1s 1s forwards}
+@keyframes fade{to{opacity:.96}}
+.chart{display:block;width:100%;height:auto;margin-top:10px}
+.line{fill:none;stroke:var(--sun);stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1300;stroke-dashoffset:1300;animation:draw 2.2s .8s ease-out forwards}
+.area{fill:url(#ag);opacity:0;animation:fade 1.2s 2.4s forwards}
+.dot{fill:#fff;opacity:0;animation:fade .4s 3s forwards}
+.pulse{fill:none;stroke:#fff;opacity:0;animation:ring 1.8s 3s infinite}
+@keyframes ring{0%{r:6;opacity:.9}100%{r:26;opacity:0}}
+@keyframes draw{to{stroke-dashoffset:0}}
+.cap{font-size:13px;fill:#fff;opacity:.9}
+.float{position:absolute;font-size:34px;animation:bob 4s ease-in-out infinite;z-index:1}
+@keyframes bob{50%{transform:translateY(-16px) rotate(8deg)}}
+.wave{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:70px;display:block;fill:var(--t-sun);z-index:2}
+.cue{position:absolute;left:50%;bottom:84px;transform:translateX(-50%);z-index:3;text-align:center;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;transition:opacity .4s;opacity:0;animation:fade 1s 3s forwards}
+.cue.off{opacity:0!important;pointer-events:none}
+.mouse{display:block;width:26px;height:42px;border:2px solid #fff;border-radius:14px;margin:8px auto 0;position:relative}
+.mouse:after{content:"";position:absolute;left:50%;top:7px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:#fff;animation:wheel 1.6s ease-in-out infinite}
+@keyframes wheel{0%{opacity:0;transform:translateY(0)}30%{opacity:1}100%{opacity:0;transform:translateY(14px)}}
+.cue b{display:block;font-size:18px;margin-top:4px;animation:chev 1.6s ease-in-out infinite}
+@keyframes chev{50%{transform:translateY(6px)}}
+
+/* numbers */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:22px}
+.stat{padding:22px}
+.stat:nth-child(1){background:#fff0a8;color:#1a1745}.stat:nth-child(2){background:#ffc2d6;color:#1a1745}.stat:nth-child(3){background:#aef0d0;color:#1a1745}
+.stat b{display:block;font:800 clamp(44px,9vw,62px)/1 'Bricolage Grotesque',sans-serif}
+.stat span{font-size:15px;opacity:.8}
+
+/* ledger */
+.ledger{display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+.ledger h3{margin:0;padding:12px 18px;font:800 18px 'Bricolage Grotesque',sans-serif;background:var(--ink);color:var(--card)}
+.ledger ul{list-style:none;margin:0;padding:6px 18px 12px}
+.ledger li{display:flex;justify-content:space-between;gap:12px;padding:10px 8px;margin:0 -8px;border-bottom:1px solid var(--line);border-radius:8px;transition:background .2s,transform .2s}
+.ledger li:hover{background:var(--line);transform:translateX(4px)}
+.ledger li:last-child{border:0}
+.pos{color:var(--up);font-weight:600}.neg{color:#e0457a;font-weight:600}
+.col+.col{border-left:2px solid var(--ink)}
+@media(max-width:560px){.ledger{grid-template-columns:1fr}.col+.col{border-left:0;border-top:2px solid var(--ink)}}
+
+/* reasons */
+.reasons{counter-reset:r;list-style:none;padding:0;margin:0}
+.reasons li{counter-increment:r;display:grid;grid-template-columns:52px 1fr;padding:16px 0;border-bottom:1px solid var(--line);cursor:pointer;transition:padding-left .25s}
+.reasons li:hover{padding-left:12px}
+.reasons li:before{content:counter(r);font:800 30px 'Bricolage Grotesque',sans-serif;color:var(--pink);transition:transform .3s}
+.reasons li:nth-child(3n+2):before{color:var(--blue)}.reasons li:nth-child(3n):before{color:var(--tang)}
+.reasons li:hover:before{transform:scale(1.3) rotate(-6deg)}
+
+/* shiva */
+.night{position:relative;background:radial-gradient(ellipse at 50% 0,#3a2a8f,#120e3d 70%);color:#fff;text-align:center;overflow:hidden;padding:84px 22px}
+.night h2{display:block;margin:0 auto 14px;background:none;font-size:clamp(30px,6.5vw,46px)}
+.star{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;animation:tw 3s ease-in-out infinite}
+@keyframes tw{50%{opacity:.15}}
+.off-screen .blob,.off-screen .ghost,.off-screen .float,.off-screen .tape div,.off-screen .pulse,.off-screen .star,.off-screen .om,.off-screen .tri{animation-play-state:paused}
+.om{position:relative;display:inline-block;font:700 clamp(100px,26vw,160px)/1.1 'Noto Sans Devanagari',sans-serif;color:#ffb347;text-shadow:0 0 28px #ff9248,0 0 70px rgba(255,146,72,.55);will-change:transform;cursor:pointer;animation:glow 3.5s ease-in-out infinite;user-select:none;background:none;border:0;padding:0}
+@keyframes glow{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.night p{max-width:44ch;margin:0 auto 14px;opacity:.92}
+.mh{font:700 clamp(24px,5vw,34px) 'Noto Sans Devanagari',sans-serif;color:#ffd23f;margin:6px 0 2px}
+.sm{font-size:15px;letter-spacing:.14em;text-transform:uppercase;opacity:.8;margin-bottom:22px}
+.tri{font-size:38px;display:inline-block;animation:bob 4s ease-in-out infinite}
+
+/* penalty */
+.pitch{background:linear-gradient(var(--grass),#278a4b);padding:24px 16px 20px;color:#fff;text-align:center;overflow:hidden}
+.goal{position:relative;height:150px;max-width:420px;margin:0 auto;border:5px solid #fff;border-bottom:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.12) 0 2px,transparent 2px 14px)}
+.keeper,.ball{position:absolute;left:50%;transform:translateX(-50%);transition:left .45s cubic-bezier(.3,1.2,.5,1),bottom .45s ease;font-size:44px;line-height:1}
+.keeper{bottom:0}
+.ball{bottom:-62px;font-size:34px}
+.shots{display:flex;gap:10px;justify-content:center;margin-top:78px;flex-wrap:wrap}
+.pitch button{background:#fff;color:#1a1745}
+.score{margin-top:14px;font-weight:600;min-height:1.6em}
+
+/* cone */
+.scoop{padding:26px;text-align:center}
+.cone{height:300px;display:flex;flex-direction:column-reverse;align-items:center;margin-bottom:6px;overflow:hidden}
+.cone u{width:0;height:0;border-left:38px solid transparent;border-right:38px solid transparent;border-top:100px solid #d99a52;flex:none}
+.cone i{flex:none;width:84px;height:62px;border-radius:50%;margin-bottom:-26px;border:2px solid #1a1745;animation:plop .6s cubic-bezier(.3,1.6,.5,1)}
+@keyframes plop{from{transform:translateY(-240px) scaleY(1.3);opacity:0}to{transform:none;opacity:1}}
+
+button{font:600 17px Figtree,system-ui,sans-serif;background:var(--blue);color:#fff;border:0;border-radius:999px;padding:13px 26px;cursor:pointer;transition:transform .15s,box-shadow .2s}
+button:hover{box-shadow:0 6px 18px rgba(35,71,216,.4);transform:translateY(-2px)}
+button:active{transform:scale(.96)}
+button:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.msg{min-height:1.6em;margin-top:14px;color:var(--mute)}
+
+/* letter */
+.letter{max-height:0;opacity:0;overflow:hidden;max-width:60ch;margin-top:0;padding:0 28px;border-width:0;box-shadow:none;transition:max-height 1.3s ease,opacity 1s,padding .6s,margin .6s}
+.letter.on{max-height:1100px;opacity:1;padding:28px;margin-top:28px;border-width:2px;box-shadow:6px 6px 0 var(--ink)}
+.letter p{margin:0 0 14px}
+footer{padding:40px 22px 64px;color:var(--mute);text-align:center;font-size:15px;background:var(--t-pink)}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:50}
+
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .9s,transform .9s}
+.js .rv.in{opacity:1;transform:none}
+html{-webkit-text-size-adjust:100%}
+button,.reasons li,.om{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.hero{min-height:100vh;min-height:100svh}
+@media(max-width:600px){
+.blob,.ghost{animation:none}
+body{font-size:16px}
+section{padding:52px 18px}
+.night{padding:64px 18px}
+.hero{padding:0 18px}
+.tape{margin:0 -18px;font-size:13px}
+.hero .wrap{padding:24px 0 150px}
+.hero>span:nth-of-type(3){display:none}
+.float{font-size:26px;opacity:.7}
+.sub{font-size:18px}
+.chip{font-size:13px}
+.ghost{top:20%;right:-8%}
+.cue{bottom:78px}
+.stat{padding:18px}
+.box{box-shadow:4px 4px 0 var(--ink);border-radius:16px}
+.letter.on{padding:22px;box-shadow:4px 4px 0 var(--ink)}
+.ledger li{font-size:15px}
+.reasons li{grid-template-columns:42px 1fr;font-size:16px}
+.reasons li:before{font-size:26px}
+.pitch{padding:20px 12px 16px}
+.shots{margin-top:74px}
+.shots button{flex:1 1 30%;padding:12px 8px;font-size:15px}
+.cone{height:270px}
+button{min-height:46px}
+}
+@media(max-width:380px){h1{font-size:46px}.shots button{font-size:14px}}
+@media(hover:none){.ledger li:hover{transform:none;background:none}.reasons li:hover{padding-left:0}.reasons li:hover:before{transform:none}button:hover{transform:none;box-shadow:none}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition-duration:.01s!important}.line{stroke-dashoffset:0}.tape div{animation:none}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<canvas id="fx"></canvas>
+
+<header class="hero" id="hero">
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="ghost" aria-hidden="true">12·11</div>
+<div class="tape" aria-hidden="true"><div id="tape"></div></div>
+<span class="float" style="left:7%;top:34%">⚽</span><span class="float" style="right:12%;top:20%;animation-delay:-1.5s">🍦</span><span class="float" style="right:24%;top:64%;animation-delay:-3s">✈️</span>
+<div class="wrap">
+<div class="chip">12 November · Mahadev’s favourite</div>
+<h1 id="title">Happy birthday, Utkarsh.</h1>
+<p class="sub">Another year, another all-time high. I ran the numbers and you’re still the best position I’ve ever held.</p>
+<svg class="chart" viewBox="0 0 700 230" role="img" aria-label="Line chart of Utkarsh’s year rising steadily">
+<defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd23f" stop-opacity=".4"/><stop offset="1" stop-color="#ffd23f" stop-opacity="0"/></linearGradient></defs>
+<path class="area" d="M10 205 L90 190 L150 198 L230 160 L300 168 L380 120 L450 130 L530 78 L600 86 L690 24 L690 215 L10 215Z"/>
+<path class="line" d="M10 205 L90 190 L150 198 L230 160 L300 168 L380 120 L450 130 L530 78 L600 86 L690 24"/>
+<circle class="dot" cx="690" cy="24" r="7"/><circle class="pulse" cx="690" cy="24" r="6"/>
+<text class="cap" x="10" y="228">Last year</text><text class="cap" x="645" y="228">Today</text>
+</svg>
+</div>
+<div class="cue" id="cue">Scroll<span class="mouse"></span><b>⌄</b></div>
+<svg class="wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 C240 90 480 0 720 30 C960 60 1200 80 1440 30 L1440 70 L0 70Z"/></svg>
+</header>
+
+<section class="s-sun"><div class="wrap rv">
+<h2>You, in numbers</h2>
+<p class="lead">Since numbers are your language, here’s how your story adds up so far.</p>
+<div class="stats">
+<div class="stat box"><b data-to="9862">0</b><span>days of being you</span></div>
+<div class="stat box"><b data-to="236688">0</b><span>hours, and I’d spend more of them with you</span></div>
+<div class="stat box"><b data-to="1">0</b><span>of you, and I got lucky</span></div>
+</div>
+</div></section>
+
+<section class="s-pink"><div class="wrap rv">
+<h2>Your balance sheet</h2>
+<p class="lead">An audit of everything that matters.</p>
+<div class="ledger box">
+<div class="col"><h3>Assets</h3><ul>
+<li><span>Chelsea loyalty</span><span class="pos">+∞</span></li>
+<li><span>Gym discipline</span><span class="pos">+100</span></li>
+<li><span>Gold stack</span><span class="pos">+∞</span></li>
+<li><span>Curiosity about everything</span><span class="pos">+100</span></li>
+<li><span>Me</span><span class="pos">priceless</span></li></ul></div>
+<div class="col"><h3>Liabilities</h3><ul>
+<li><span>Ice cream</span><span class="neg">−3 scoops</span></li>
+<li><span>Chelsea’s stress on you</span><span class="neg">−high</span></li>
+<li><span>Rest days skipped</span><span class="neg">−a few</span></li>
+<li><span>Sleeping in</span><span class="neg">−too much</span></li>
+<li><span>Debt to me</span><span class="neg">a hug</span></li></ul></div>
+</div>
+</div></section>
+
+<section class="s-mint"><div class="wrap rv">
+<h2>10 reasons, because you like numbers</h2>
+<p class="lead">Tap any reason for a little celebration.</p>
+<ol class="reasons">
+<li>You can explain why life exists at 2 a.m. and still remember to ask if I’ve eaten. 🌌</li>
+<li>You watch Chelsea like it’s a board meeting and a heart attack at the same time. ⚽</li>
+<li>You look at a chart the way other people look at a sunset, and somehow that’s adorable. 📈</li>
+<li>Your gym schedule is stricter than an airline’s, and the results are very much on time. 💪</li>
+<li>Your taste is unreal: the fits, the photos, the playlists, and (modest cough) me. ✨</li>
+<li>You rate every ice cream like an analyst, and you’ve never downgraded me. 🍦</li>
+<li>You watch Passenger Paramvir and plan trips like you’re about to film one. I’m the happy sidekick. ✈️</li>
+<li>Your eyes are so pure that your whole heart shows right through them. 👀✨</li>
+<li>You’re Mahadev’s favourite, and honestly, I get why. 🔱</li>
+<li>Out of every number in the world, my favourite is still the one that has you in it. 💛</li>
+</ol>
+</div></section>
+
+<section class="night" id="night"><div class="wrap rv" style="position:relative">
+<span class="tri" aria-hidden="true">🔱</span>
+<h2>Mahadev’s favourite child</h2>
+<button class="om" id="om" aria-label="Tap the Om for a blessing">ॐ</button>
+<div class="mh">हर हर महादेव</div>
+<div class="sm">Har Har Mahadev</div>
+<p>They say Mahadev keeps a special place for his favourite. I know exactly who his is. May his blessings stay with you today and always.</p>
+<div class="msg" id="omsg" style="color:#ffd9a0">Tap the Om.</div>
+</div></section>
+
+<section class="s-lav"><div class="wrap rv">
+<h2>Penalty shootout</h2>
+<p class="lead">Five kicks. Beat the keeper like Palmer does: cold, calm, clinical.</p>
+<div class="pitch box">
+<div class="goal"><div class="keeper" id="gk">🧤</div><div class="ball" id="ball">⚽</div></div>
+<div class="shots"><button data-p="0">Shoot left</button><button data-p="1">Shoot middle</button><button data-p="2">Shoot right</button></div>
+<div class="score" id="score">Goals: 0 / 5</div>
+</div>
+</div></section>
+
+<section class="s-sun"><div class="wrap rv">
+<h2>Build your birthday cone</h2>
+<p class="lead">You can never have too many scoops. Well, ten.</p>
+<div class="scoop box">
+<div class="cone" id="cone"><u></u></div>
+<button id="add">Add a scoop</button>
+<div class="msg" id="msg">Scoops: 0. Let’s see how high you can go.</div>
+</div>
+</div></section>
+
+<section class="s-pink"><div class="wrap rv">
+<h2>One more thing</h2>
+<button id="open">Open your gift</button>
+<div class="letter box" id="letter">
+<p>Utkarsh,</p>
+<p>Everyone says life is a mystery, and maybe it is. But the best part of mine so far is that it led me to you.</p>
+<p>Your eyes are so pure that they show your heart, and it’s the most beautiful thing I know.</p>
+<p>Happy birthday. I love you more than any number I could put here, and I can’t wait for every trip, every match and every scoop with you this year.</p>
+<p>May Mahadev keep blessing you with health, peace and everything you work so hard for.</p>
+<p>P.S. I know about you and gold. I’ll share you, but only with gold.</p>
+<p>Yours,<br>Always</p>
+</div>
+</div></section>
+
+<footer>Made with love, for Utkarsh.</footer>
+
+<script>
+(function(){
+document.documentElement.classList.add('js');
+var $=function(i){return document.getElementById(i)};
+var still=matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+/* ticker */
+var items=['CFC <b>▲ 1.0</b>','UTKARSH <b>▲ +1 year</b>','GYM GAINS <b>▲</b>','PALMER <b>▲</b>','ICE CREAM <b>▲ bullish</b>','GOLD <b>▲</b>','TRAVEL FUND <b>▲</b>','HAR HAR MAHADEV <b>🔱</b>'];
+var t=items.map(function(x){return '<span>'+x+'</span>'}).join('');
+$('tape').innerHTML=t+t+t+t;
+
+/* title letters */
+var title=$('title'),txt=title.textContent,k=0;title.textContent='';title.setAttribute('aria-label',txt);
+txt.split(' ').forEach(function(word){
+var w=document.createElement('span');w.className='w';w.setAttribute('aria-hidden','true');
+word.split('').forEach(function(ch){var c=document.createElement('span');c.className='c';c.textContent=ch;c.style.animationDelay=(0.15+k*0.045)+'s';k++;w.appendChild(c)});
+title.appendChild(w);title.appendChild(document.createTextNode(' '));k++;
+});
+
+/* stars */
+var nt=$('night');for(var i=0;i<20;i++){var s=document.createElement('span');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=(Math.random()*3)+'s';nt.appendChild(s)}
+
+/* scroll cue + progress */
+var cue=$('cue'),bar=$('bar');
+function sc(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;bar.style.width=(h>0?y/h*100:0)+'%';cue.classList.toggle('off',y>60)}
+addEventListener('scroll',sc,{passive:true});sc();
+cue.addEventListener('click',function(){scrollTo({top:innerHeight*.9,behavior:'smooth'})});
+
+/* confetti */
+var cv=$('fx'),cx=cv.getContext('2d'),P=[],run=false;
+function size(){cv.width=innerWidth;cv.height=innerHeight}size();addEventListener('resize',size);
+var cols=['#ff5d8f','#3ddc97','#ffd23f','#2347d8','#ffffff','#b79cff','#ff9248'],saf=['#ff9248','#ffd23f','#ffb347','#ffffff','#ff5d8f'];
+function boom(x,y,n,pal){if(still)return;if(innerWidth<600)n=Math.round(n*.6);pal=pal||cols;for(var i=0;i<n;i++){var a=Math.random()*Math.PI*2,s=4+Math.random()*9;P.push({x:x,y:y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-5,r:4+Math.random()*5,c:pal[i%pal.length],l:110+Math.random()*60,rot:Math.random()*6})}if(!run){run=true;tick()}}
+function tick(){cx.clearRect(0,0,cv.width,cv.height);P=P.filter(function(p){return p.l>0});
+P.forEach(function(p){p.x+=p.vx;p.y+=p.vy;p.vy+=.28;p.vx*=.985;p.l--;p.rot+=.2;cx.save();cx.globalAlpha=Math.min(1,p.l/40);cx.translate(p.x,p.y);cx.rotate(p.rot);cx.fillStyle=p.c;cx.fillRect(-p.r,-p.r/2,p.r*2,p.r);cx.restore()});
+if(P.length)requestAnimationFrame(tick);else{run=false;cx.clearRect(0,0,cv.width,cv.height)}}
+function at(el,n,pal){var r=el.getBoundingClientRect();boom(r.left+r.width/2,r.top+r.height/2,n||60,pal)}
+setTimeout(function(){boom(innerWidth/2,innerHeight*.35,100)},1800);
+
+/* scroll reveal + counters */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;e.target.classList.add('in');
+e.target.querySelectorAll('[data-to]').forEach(function(n){var to=+n.dataset.to,s=performance.now();(function f(now){var p=Math.min(1,(now-s)/1800);n.textContent=Math.round(to*(1-Math.pow(1-p,3))).toLocaleString('en-US');if(p<1)requestAnimationFrame(f)})(s)});
+io.unobserve(e.target)})},{threshold:.2});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+/* pause looping animations when their section is off-screen */
+var po=new IntersectionObserver(function(es){es.forEach(function(e){e.target.classList.toggle('off-screen',!e.isIntersecting)})});
+['hero','night'].forEach(function(id){po.observe($(id))});
+
+/* reasons */
+document.querySelectorAll('.reasons li').forEach(function(li){li.addEventListener('click',function(e){boom(e.clientX,e.clientY,35)})});
+
+/* om */
+var blessings=['Har Har Mahadev.','May his blessings always follow you.','Peace, strength and calm, always.','Mahadev’s favourite, today and every day.'],bi=0;
+$('om').addEventListener('click',function(){$('omsg').textContent=blessings[bi++%blessings.length];at(this,70,saf)});
+
+/* penalty */
+var xs=['18%','50%','82%'],goals=0,shots=0,busy=false,gk=$('gk'),ball=$('ball'),scr=$('score');
+document.querySelectorAll('[data-p]').forEach(function(b){b.addEventListener('click',function(){
+if(busy)return;if(shots>=5){shots=0;goals=0}
+busy=true;shots++;var me=+b.dataset.p,kp=Math.floor(Math.random()*3);
+ball.style.left=xs[me];ball.style.bottom='70px';gk.style.left=xs[kp];
+setTimeout(function(){
+if(me===kp){scr.textContent='Saved! Goals: '+goals+' / 5'}
+else{goals++;scr.textContent='GOAL! Goals: '+goals+' / 5';at(ball,45)}
+if(shots>=5){scr.textContent+=goals>=4?' Cold Palmer would be proud!':goals>=2?' Not bad. Play again?':' Tough day. Tap again!'}
+setTimeout(function(){ball.style.left='50%';ball.style.bottom='-62px';gk.style.left='50%';busy=false},900)},520)})});
+
+/* cone */
+var cc=['#ff5d8f','#3ddc97','#ffd23f','#b79cff','#ff9248'],n=0,cone=$('cone'),msg=$('msg');
+var notes={1:'One scoop. A solid start.',3:'Three scoops. Now we’re talking.',5:'Five scoops. This is a high-conviction position.',8:'Eight scoops. Palmer would be proud of this finish.',10:'Ten out of ten. Happy birthday!'};
+$('add').addEventListener('click',function(){
+if(n>=10){msg.textContent='Max scoops reached. Even the best portfolios need limits.';return}
+n++;var s=document.createElement('i');s.style.background=cc[n%cc.length];cone.appendChild(s);
+msg.textContent=notes[n]||('Scoops: '+n+'.');if(n===10)at($('add'),80)});
+
+/* gift */
+$('open').addEventListener('click',function(){
+$('letter').classList.add('on');at(this,120);this.style.display='none';
+setTimeout(function(){boom(innerWidth*.25,innerHeight*.5,70);boom(innerWidth*.75,innerHeight*.5,70)},500)});
+})();
+</script>
+</body>
+</html>
